@@ -1,0 +1,16 @@
+D:\VS\Проекты\AplicationHistory\Aplication history\bin\Debug\net5.0\Aplication history.exe
+D:\VS\Проекты\AplicationHistory\Aplication history\bin\Debug\net5.0\Aplication history.deps.json
+D:\VS\Проекты\AplicationHistory\Aplication history\bin\Debug\net5.0\Aplication history.runtimeconfig.json
+D:\VS\Проекты\AplicationHistory\Aplication history\bin\Debug\net5.0\Aplication history.runtimeconfig.dev.json
+D:\VS\Проекты\AplicationHistory\Aplication history\bin\Debug\net5.0\Aplication history.dll
+D:\VS\Проекты\AplicationHistory\Aplication history\bin\Debug\net5.0\ref\Aplication history.dll
+D:\VS\Проекты\AplicationHistory\Aplication history\bin\Debug\net5.0\Aplication history.pdb
+D:\VS\Проекты\AplicationHistory\Aplication history\obj\Debug\net5.0\Aplication history.csproj.AssemblyReference.cache
+D:\VS\Проекты\AplicationHistory\Aplication history\obj\Debug\net5.0\Aplication history.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS\Проекты\AplicationHistory\Aplication history\obj\Debug\net5.0\Aplication history.AssemblyInfoInputs.cache
+D:\VS\Проекты\AplicationHistory\Aplication history\obj\Debug\net5.0\Aplication history.AssemblyInfo.cs
+D:\VS\Проекты\AplicationHistory\Aplication history\obj\Debug\net5.0\Aplication history.csproj.CoreCompileInputs.cache
+D:\VS\Проекты\AplicationHistory\Aplication history\obj\Debug\net5.0\Aplication history.dll
+D:\VS\Проекты\AplicationHistory\Aplication history\obj\Debug\net5.0\ref\Aplication history.dll
+D:\VS\Проекты\AplicationHistory\Aplication history\obj\Debug\net5.0\Aplication history.pdb
+D:\VS\Проекты\AplicationHistory\Aplication history\obj\Debug\net5.0\Aplication history.genruntimeconfig.cache
