@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VS\\Проекты\\Warehouse-OOP-Mentoring\\AplicationHistory\\Aplication history\\Aplication history.csproj": {}
+    "D:\\VS\\Проекты\\Warehouse-OOP-Mentoring\\Application History\\Aplication history\\Aplication history.csproj": {}
   },
   "projects": {
-    "D:\\VS\\Проекты\\Warehouse-OOP-Mentoring\\AplicationHistory\\Aplication history\\Aplication history.csproj": {
+    "D:\\VS\\Проекты\\Warehouse-OOP-Mentoring\\Application History\\Aplication history\\Aplication history.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VS\\Проекты\\Warehouse-OOP-Mentoring\\AplicationHistory\\Aplication history\\Aplication history.csproj",
+        "projectUniqueName": "D:\\VS\\Проекты\\Warehouse-OOP-Mentoring\\Application History\\Aplication history\\Aplication history.csproj",
         "projectName": "Aplication history",
-        "projectPath": "D:\\VS\\Проекты\\Warehouse-OOP-Mentoring\\AplicationHistory\\Aplication history\\Aplication history.csproj",
+        "projectPath": "D:\\VS\\Проекты\\Warehouse-OOP-Mentoring\\Application History\\Aplication history\\Aplication history.csproj",
         "packagesPath": "C:\\Users\\lotus\\.nuget\\packages\\",
-        "outputPath": "D:\\VS\\Проекты\\Warehouse-OOP-Mentoring\\AplicationHistory\\Aplication history\\obj\\",
+        "outputPath": "D:\\VS\\Проекты\\Warehouse-OOP-Mentoring\\Application History\\Aplication history\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lotus\\AppData\\Roaming\\NuGet\\NuGet.Config",
