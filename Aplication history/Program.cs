@@ -7,44 +7,43 @@ namespace Aplication_history
 {
     class Program
     {
-        public static Stack<string> History = new Stack<string>();
-        public static Stack<string> ForwardHistory = new Stack<string>();
+        public static Stack<string> history = new Stack<string>();
+        public static Stack<string> forwardHistory = new Stack<string>();
         static void Main(string[] args)
         {
             while (true)
             {
-                Console.WriteLine("1) Add url");
-                Console.WriteLine("2) Go back");
-                Console.WriteLine("3) Go forward");
-                Console.WriteLine("4) Show history");
+                Console.WriteLine("1) Go back");
+                Console.WriteLine("2) Go forward");
+                Console.WriteLine("3) Show history");
                 string choise = Console.ReadLine();
                 int.TryParse(choise, out int number);
                 switch (number)
                 {
                     case 1:
-                        AddUrl(History);
+                        if (history.Count <= 0)
+                        {
+                            goto default;
+                        }
+                        else { Back(history); }
                         break;
                     case 2:
-                        Back(History);
+                        if (forwardHistory.Count == 0)
+                        {
+                            Console.Write("Enter site: ");
+                            forwardHistory.Push(Console.ReadLine());
+                            Forward(forwardHistory);
+                        }
+                        else { Forward(forwardHistory); }
                         break;
                     case 3:
-                        Forward(ForwardHistory);
-                        break;
-                    case 4:
-                        DisplayHistory(History);
+                        DisplayHistory(history);
                         break;
                     default:
-                        Console.WriteLine("Incorrect value");
+                        Console.WriteLine("Home page");
                         break;
                 }
             }
-        }
-        public static void AddUrl(Stack<string> obj)
-        {
-            Console.Clear();
-            Console.Write("Url: ");
-            string url = Console.ReadLine();
-            obj.Push(url);
         }
         public static void DisplayHistory(Stack<string> obj)
         {
@@ -55,28 +54,27 @@ namespace Aplication_history
                 Console.WriteLine(number + ")" + item);
                 number++;
             }
+            Console.WriteLine();
         }
         public static Stack<string> Back(Stack<string> obj)
         {
             Console.Clear();
-            if (obj.Count != 0)
+            forwardHistory.Push(obj.Pop());
+            if(obj.Count != 0)
             {
-                Console.WriteLine("You on site " + obj.Peek());
-                ForwardHistory.Push(obj.Pop());
+                Console.WriteLine("You on site: " + obj.Peek());
             }
-            else { Console.WriteLine("Back history empty"); }
-            return ForwardHistory;
+            else { Console.WriteLine("Home page"); }
+            return forwardHistory;
         }
         public static Stack<string> Forward(Stack<string> obj)
         {
             Console.Clear();
-            if (obj.Count != 0)
-            {
-                Console.WriteLine("You on site " + obj.Peek());
-                History.Push(obj.Pop());
-            }
-            else { Console.WriteLine("Forward history empty"); }
-            return History;
+           {
+                Console.WriteLine("You on site: " + obj.Peek());
+                history.Push(obj.Pop());
+           }
+            return history;
         }
     }
 }
